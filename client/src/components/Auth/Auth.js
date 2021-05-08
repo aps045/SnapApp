@@ -9,6 +9,7 @@ import useStyles from './styles';
 import Input from './Input';
 import Icon from './icon';
 import { signin, signup } from '../../actions/auth';
+import { AUTH } from '../../constants/actionTypes';
 
 
 const initialState = {firstName: '', lastName: '', email: '', password: '', confirmPassword: ''};
@@ -48,7 +49,7 @@ const Auth = () => {
         const token = res?.tokenId;
     
         try {
-            dispatch({ type: 'AUTH', data: { result, token } });
+            dispatch({ type: AUTH, data: { result, token } });
 
             history.push('/');
         } catch (error) {
