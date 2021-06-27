@@ -17,6 +17,8 @@ const Post = ({ post, setCurrentId }) => {
     const user = JSON.parse(localStorage.getItem('profile'));
 
     const Likes = () => {
+        if(post!==undefined)
+        {
         if (post.likes.length > 0) {
           return post.likes.find((like) => like === (user?.result?.googleId || user?.result?._id))
             ? (
@@ -25,6 +27,7 @@ const Post = ({ post, setCurrentId }) => {
               <><ThumbUpAltOutlined fontSize="small" />&nbsp;{post.likes.length} {post.likes.length === 1 ? 'Like' : 'Likes'}</>
             );
         }
+    }
     
         return <><ThumbUpAltOutlined fontSize="small" />&nbsp;Like</>;
       };
