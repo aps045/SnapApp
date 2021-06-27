@@ -18,9 +18,9 @@ app.use('/posts', postRoutes);
 app.use('/user', userRoutes);
 
 // const CONNECTION_URL = "mongodb+srv://newuser123:newuser0123@cluster0.zq1l2.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 
-mongoose.connect(process.env.CONNECTION_URL, {
+mongoose.connect("mongodb+srv://newuser123:newuser0123@cluster0.zq1l2.mongodb.net/myFirstDatabase", {
         useNewUrlParser: true,
         useUnifiedTopology: true
     }).then(() => app.listen(PORT, () => console.log(`Server is running on PORT: ${PORT}`)))
