@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/SnapApp/static/js/main.928a7fdd.chunk.js",
+    "main.js.map": "/SnapApp/static/js/main.928a7fdd.chunk.js.map",
+    "runtime-main.js": "/SnapApp/static/js/runtime-main.cf2f26a8.js",
+    "runtime-main.js.map": "/SnapApp/static/js/runtime-main.cf2f26a8.js.map",
+    "static/js/2.8210045d.chunk.js": "/SnapApp/static/js/2.8210045d.chunk.js",
+    "static/js/2.8210045d.chunk.js.map": "/SnapApp/static/js/2.8210045d.chunk.js.map",
+    "index.html": "/SnapApp/index.html",
+    "static/js/2.8210045d.chunk.js.LICENSE.txt": "/SnapApp/static/js/2.8210045d.chunk.js.LICENSE.txt",
+    "static/media/main.9cfa8a46.png": "/SnapApp/static/media/main.9cfa8a46.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf2f26a8.js",
+    "static/js/2.8210045d.chunk.js",
+    "static/js/main.928a7fdd.chunk.js"
+  ]
+}
